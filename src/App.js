@@ -1,4 +1,3 @@
-import './App.css';
 import HomePage from "./BuildingApp/HomePage"
 import AboutPage from "./BuildingApp/AboutPage"
 import ServicePage from "./BuildingApp/ServicePage"
