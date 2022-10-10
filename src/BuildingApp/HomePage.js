@@ -429,20 +429,19 @@ function HomePage() {
           </div>
           <div
             className="buildCategories2 categories testing"
-            onClick={() =>
-              this.categories(
-                'notVisible',
-                'visible',
-                'notVisible',
-                'notVisible',
-                'notVisible',
-                'notColored',
-                'colored',
-                'notColored',
-                'notColored',
-                'notColored'
-              )
-            }
+            onClick={() => categories(
+              'notVisible',
+              'visible',
+              'notVisible',
+              'notVisible',
+              'notVisible',
+              'notColored',
+              'colored',
+              'notColored',
+              'notColored',
+              'notColored'
+            )
+          }
           >
             <p className="buildText">
               <RiPencilRuler2Fill />
@@ -451,20 +450,19 @@ function HomePage() {
           </div>
           <div
             className="buildCategories3 categories testing"
-            onClick={() =>
-              this.categories(
-                'notVisible',
-                'notVisible',
-                'visible',
-                'notVisible',
-                'notVisible',
-                'notColored',
-                'notColored',
-                'colored',
-                'notColored',
-                'notColored'
-              )
-            }
+            onClick={() => categories(
+              'notVisible',
+              'notVisible',
+              'visible',
+              'notVisible',
+              'notVisible',
+              'notColored',
+              'notColored',
+              'colored',
+              'notColored',
+              'notColored'
+            )
+          }
           >
             <p className="buildText">
               <BsTriangle />
@@ -473,20 +471,19 @@ function HomePage() {
           </div>
           <div
             className="buildCategories4 categories testing"
-            onClick={() =>
-              this.categories(
-                'notVisible',
-                'notVisible',
-                'notVisible',
-                'visible',
-                'notVisible',
-                'notColored',
-                'notColored',
-                'notColored',
-                'colored',
-                'notColored'
-              )
-            }
+            onClick={() => categories(
+              'notVisible',
+              'notVisible',
+              'notVisible',
+              'visible',
+              'notVisible',
+              'notColored',
+              'notColored',
+              'notColored',
+              'colored',
+              'notColored'
+            )
+          }
           >
             <p className="buildText">
               <GiLargePaintBrush />
@@ -495,20 +492,19 @@ function HomePage() {
           </div>
           <div
             className="buildCategories5 categories testing"
-            onClick={() =>
-              this.categories(
-                'notVisible',
-                'notVisible',
-                'notVisible',
-                'notVisible',
-                'visible',
-                'notColored',
-                'notColored',
-                'notColored',
-                'notColored',
-                'colored'
-              )
-            }
+            onClick={() => categories(
+              'notVisible',
+              'notVisible',
+              'notVisible',
+              'notVisible',
+              'visible',
+              'notColored',
+              'notColored',
+              'notColored',
+              'notColored',
+              'colored'
+            )
+          }
           >
             <p className="buildText">
               <RiHammerLine />
