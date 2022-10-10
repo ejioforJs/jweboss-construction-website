@@ -1,0 +1,659 @@
+body,html{
+    width:100%;
+    background-color: rgb(241,241,241);
+}
+.testing{
+    opacity:0;
+}
+.opaque{
+    animation-name:opaque;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes opaque {
+    from{
+        opacity:0
+    }
+    to{
+        opacity:1
+    }
+}
+.contactUsheadTop{
+    width:100%;
+    height:40px;
+    background-color: rgb(32,46,49);
+    box-sizing: border-box;
+}
+.contactUsheadTopText{
+    display:inline-block;
+    color:white;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgb(26,38,40);
+    height:100%;
+    width:28%;
+    box-sizing: border-box;
+    padding-top:3px;
+    padding-left:6%;
+    transform-origin:100% 0;
+    transform: skew(-45deg);
+}
+.contactUsheadTopTextPara{
+    transform: skew(45deg);
+}
+.contactUsnav1{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight:bold;
+    margin-left:40%;
+}
+.contactUsnav2{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.contactUsnav3{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.contactUsnav4{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.contactUsheadTop2{
+    height:140px;
+    width:100%;
+    background-color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+}
+.contactUslogo1{
+    width:180px;
+    height:80px;
+    margin-left: 7%;
+    margin-top:30px;
+}
+.contactUslogo2Box{
+    height:50%;
+    margin-left:25%;
+    margin-top:30px;
+    box-sizing: border-box;
+    padding-top:5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactUslogoText{
+    margin-top:12px;
+    margin-left: 12px;
+}
+.contactUsheadTop2Main{
+    display:flex;
+    flex-direction: row;
+}
+.contactUslogo3Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactUslogo4Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contactUslogo{
+    font-size: 40px;
+    margin-top:0%;
+}
+.contactUslogoText1{
+    font-size:11px;
+    opacity: 0.8;
+}
+.contactUslogoText2{
+    font-size:17px;
+    font-weight:bold;
+}
+.contactUsNavContainer{
+    width:100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom,rgba(32, 46, 49, 0.9) 50%,rgba(32, 46, 49, 0.9) 50%),
+    url("image27.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactUsheadTop3{
+    width:85%;
+    height:50px;
+    background-color: rgb(32,46,49);
+    margin-left:7.5%;
+    transform: skew(-30deg);
+    transform-origin: 100% 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.contactUsnavText{
+    color:white;
+    transform:skew(30deg);
+    font-size: 14px;
+    font-weight: bold;
+}
+.contactUsheadTop37{
+    float: right;
+    text-align: center;
+    height:100%;
+    width:14%;
+    background-color: rgb(253,194,54);
+    transform-origin: 100% 0;
+    transform:skew(0deg);
+    margin-left:35%;
+}
+.contactUsnavText7{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    transform:skew(30deg);
+}
+.contactUsht3{
+    transition:background-color 1s;
+    height:100%;
+    width:9%;
+    text-align: center;
+    cursor:pointer;
+}
+.contactUsheadTop36{
+    background-color: rgb(253,194,54);
+}
+.contactUsht3:hover{
+    background-color: rgb(253,194,54);
+}
+.contactUs{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.contactUsInfo{
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.mapData{
+    width:100%;
+    height: 420px;
+    background-color: rgb(93,93,93);
+    margin-top:150px;
+}
+.contactUsPage{
+    width:50%;
+    height:550px;
+    background-color: white;
+    margin-top:-490px;
+    margin-left:7%;
+}
+.sendAMessage{
+    font-size: 18px;
+    font-weight:bold;
+    color:black;
+    width:100%;
+    height:70px;
+    box-sizing: border-box;
+    padding-top:20px;
+    padding-left:25px;
+}
+.contactUsInputs{
+    width:100%;
+    height: 420px;
+    border-top:1px solid rgba(56, 54, 54, 0.205);
+}
+.input{
+    width:44%;
+    height:50px;
+    border:1px solid rgba(56, 54, 54, 0.205);
+    color:black;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding-left:10px;
+    outline-color: rgb(253,194,54);
+}
+.inputName{
+    margin-left:4.5%;
+    margin-top:5%;
+}
+.inputEmail{
+    margin-left:3%;
+    margin-top:6%;
+}
+.inputNumber{
+    margin-left:4.5%;
+    margin-top:3.3%;
+}
+.inputSubject{
+    margin-left:3%;
+    margin-top:3.3%;
+}
+.textarea{
+    font-size: 13px;
+    width:91%;
+    height:130px;
+    margin-left:4.5%;
+    border:1px solid rgba(56, 54, 54, 0.205);
+    margin-top:3.3%;
+    box-sizing: border-box;
+    padding-top:10px;
+    padding-left:10px;
+    outline-color: rgb(253,194,54);
+}
+.sendNowBox{
+    width:24%;
+    height:54px;
+    background-color: rgb(253,194,54);
+    margin-left:4.5%;
+    margin-top:3.3%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top:3px;
+    cursor:pointer;
+    transition: background-color 0.5s;
+}
+.sendNowButton{
+    width:96%;
+    height:48px;
+    font-size: 16px;
+    border:2px solid white;
+    color:white;
+    font-weight: bold;
+    background-color: rgb(253,194,54);
+    transition: background-color 0.5s;
+    cursor:pointer
+}
+.sendNowBox:hover{
+    background-color: rgb(32,46,49);
+}
+.sendNowBox:hover .sendNowButton{
+    background-color: rgb(32,46,49);
+}
+.contactUsIcons{
+    width:100%;
+    height:60px;
+    background-color: rgb(32,46,49);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+}
+.iconsBox{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.mainIcon{
+    font-size: 35px;
+    margin-top:20px;
+}
+.icons1{
+    font-size: 10px;
+}
+.icons2{
+    font-size: 12px;
+    font-weight: bold;
+}
+.iconsText{
+    margin-left:10px;
+}
+.iconsBox1{
+    margin-left:40px;
+    margin-top:-6px;
+}
+.iconsBox2{
+    margin-top:-6px;
+}
+.iconsBox3{
+    margin-right:50px;
+    margin-top:-6px;
+}
+.contactUsbottom{
+    width:100%;
+    background-color: rgb(32,45,48);
+    height:500px;
+    box-sizing: border-box;
+    padding-top:40px;
+    position:relative;
+    margin-top:100px;
+}
+.contactUsbottomFirst{
+    display:flex;
+    flex-direction: row;
+    height:70%;
+    margin-top:50px;
+}
+.contactUsbottomFirst1{
+    margin-left:70px;
+}
+.contactUsbottomFirst2{
+    margin-left:50px;
+}
+.contactUsbottomFirst3{
+    margin-left:100px;
+}
+.contactUsbottomFirst4{
+    margin-left:100px;
+}
+.contactUsimage19Text{
+    color:white;
+    margin-top:-6px;
+    font-size: 15px;
+    word-spacing: 0.2rem;
+    line-height: 1.6rem;
+}
+.contactUsfirstBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.contactUsfirstBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.contactUssecondBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.contactUssecondBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.contactUsthirdBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top:-5px;
+}
+.contactUsthirdBottomLinks{
+    color:rgb(111, 134, 129);
+    margin-top:30px;
+    font-size:15px;
+    line-height:1.6rem;
+}
+.contactUsmediaIcons{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:110px;
+    margin-top: 30px;
+}
+.contactUsicon{
+    box-sizing: border-box;
+    padding: 6px 6px 6px 6px;
+    height:28px;
+    width: 30px;
+    text-align: center;
+    color:white;
+    border:1px solid rgb(111, 134, 129);
+    border-radius: 50%;
+    transition:background-color 0.5s,color 0.5s;
+}
+.contactUsicon:hover{
+    background-color: rgb(253,194,54);
+    color:black;
+}
+.contactUsbottomSecond{
+    width:100%;
+    bottom:0;
+    position: absolute;
+    background-color: rgb(23,34,36);
+    height: 15%;
+    box-sizing: border-box;
+    padding-top:10px;
+    padding-left:70px;
+}
+.contactUsbottomSecondText{
+    color:rgb(111, 134, 129);
+    font-size: 15px;
+}
+.contactUsmenuIcon{
+    width:30px;
+    height:25px;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+    background-color: rgb(253,194,54);
+    padding:4px 4px 4px 4px;
+    display: none;
+}
+#margin{
+    margin-left:0;
+}
+@media screen and (max-width: 550px){
+    .contactUsheadTopText{
+        font-size: 10px;
+        width:95%;
+        padding-top:0;
+        height:30px;
+        padding-left:8%
+    }
+    .contactUsheadTop{
+        height:60px;
+    }
+    .contactUsnav1{
+        margin-left:5%;
+        font-size: 10px;
+    }
+    .contactUsnav2{
+        font-size: 10px;
+    }
+    .contactUsnav3{
+        font-size: 10px;
+    }
+    .contactUsnav4{
+        font-size: 10px;
+    }
+    .contactUslogo1{
+        width:160px;
+        height:70px;
+        margin-left: 2%;
+        margin-top:15px;
+    }
+    .contactUsheadTop2{
+        height:300px;
+        flex-direction: column;
+    }
+    .contactUslogo2Box{
+        margin-top:-13px;
+        margin-left:2%;
+    }
+    .contactUslogo3Box{
+        margin-top:-16px
+    }
+    .contactUslogo4Box{
+        margin-top:-16px
+    }
+    .contactUslogoText1{
+        font-size:8px;
+    }
+    .contactUslogoText2{
+        font-size: 13px;
+    }
+    .contactUslogo{
+        font-size: 35px;
+    }
+    .contactUsheadTop3{
+        justify-content: space-between;
+        width:100%;
+        height: 35px;
+        margin-left:0;
+        transform: skew(0);
+    }
+    .contactUsht3{
+        width:20%;
+        font-size: 17px;
+    }
+    .contactUsheadTop35{
+        display:none
+    }
+    .contactUsnavText{
+        font-size:10px;
+        transform: skew(0);
+    }
+    .contactUsheadTop37{
+        display:none;
+    }
+    .contactUsNavContainer{
+        margin-top:0px;
+        position:relative;
+        height:230px;
+    }
+    .contactUs{
+        padding-top:8px;
+        width:100%;
+        font-size: 25px;
+    }
+    .contactUsInfo{
+        font-size:15px;
+        margin-top:-10px;
+    }
+    .contactUsmenuIcon{
+        display:inline;
+    }
+    .mapData{
+        display:none;
+    }
+    .contactUsPage{
+        width:100%;
+        margin-top:30px;
+        margin-left: 0;
+        height:580px;
+        position:relative
+    }
+    .contactUsInputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        width:91%;
+        margin-left:4.5%;
+        margin-top:5%;
+        height:60px;
+    }
+    .sendNowBox{
+        width:40%;
+        margin-top:4%;
+    }
+    .iconsBox{
+        display:none;
+    }
+    .contactUsIcons{
+        position:absolute;
+        bottom:0;
+    }
+    .contactUsbottom{
+        height:1200px;
+    }
+    .contactUsbottomFirst{
+        height: 90%;
+        flex-direction: column;
+    }
+    .contactUsbottomFirst1,.contactUsbottomFirst2,.contactUsbottomFirst3,.contactUsbottomFirst4{
+        margin-left:20px;
+    }
+    .contactUsfirstBottomHead,.contactUssecondBottomHead,.contactUsthirdBottomHead{
+        margin-top:20px;
+        font-size: 18px;
+    }
+    .contactUsfirstBottomLinks,.contactUssecondBottomLinks,.contactUsthirdBottomLinks{
+        font-size:14px;
+    }
+    .contactUsbottomSecond{
+        height: 5%;
+        padding-left:0;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:800px) {
+    .contactUsheadTopText{
+        width:40%;
+    }
+    .contactUsnav1{
+        margin-left:20%
+    }
+    .contactUslogo1{
+        margin-left: 2%;
+    }
+    .contactUslogo2Box{
+        margin-left:15%;
+    }
+    .contactUsbottomFirst1{
+        margin-left:20px;
+    }
+}
+@media screen and (max-width:800px) and (min-width:600px) {
+    .contactUsheadTopText{
+        width:40%;
+    }
+    .contactUsnav1{
+        margin-left:20%
+    }
+    .contactUslogo1{
+        margin-left:1%
+    }
+    .contactUslogo2Box{
+        margin-left:0%
+    }
+    .contactUsheadTop3{
+        justify-content: space-between;
+    }
+    .contactUsheadTop35{
+        width:7%;
+    }
+    .contactUsheadTop31{
+        width:7%;
+    }
+    .contactUsheadTop32{
+        width:8%;
+    }
+    .contactUsheadtop37{
+        width:20%
+    }
+    .contactUsnavText{
+        font-size: 12px;
+    }
+    .contactUsnavText7{
+        font-size: 12px;
+    }
+    .contactUsbottomFirst1{
+        margin-left:20px;
+    }
+    .mapData{
+        display: none;
+    }
+    .contactUsPage{
+        width: 100%;
+        margin-left:0;
+        margin-top:50px;
+    }
+}

@@ -1,0 +1,767 @@
+body,html{
+    width:100%;
+}
+.testing{
+    opacity:0;
+}
+.opaque{
+    animation-name:opaque;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes opaque {
+    from{
+        opacity:0
+    }
+    to{
+        opacity:1
+    }
+}
+.projectsheadTop{
+    width:100%;
+    height:40px;
+    background-color: rgb(32,46,49);
+    box-sizing: border-box;
+}
+.projectsheadTopText{
+    display:inline-block;
+    color:white;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgb(26,38,40);
+    height:100%;
+    width:28%;
+    box-sizing: border-box;
+    padding-top:3px;
+    padding-left:6%;
+    transform-origin:100% 0;
+    transform: skew(-45deg);
+}
+.projectsheadTopTextPara{
+    transform: skew(45deg);
+}
+.projectsnav1{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight:bold;
+    margin-left:40%;
+}
+.projectsnav2{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.projectsnav3{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.projectsnav4{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.projectsheadTop2{
+    height:140px;
+    width:100%;
+    background-color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+}
+.projectslogo1{
+    width:180px;
+    height:80px;
+    margin-left: 7%;
+    margin-top:30px;
+}
+.projectslogo2Box{
+    height:50%;
+    margin-left:25%;
+    margin-top:30px;
+    box-sizing: border-box;
+    padding-top:5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.projectslogoText{
+    margin-top:12px;
+    margin-left: 12px;
+}
+.projectsheadTop2Main{
+    display:flex;
+    flex-direction: row;
+}
+.projectslogo3Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.projectslogo4Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.projectslogo{
+    font-size: 40px;
+    margin-top:0%;
+}
+.projectslogoText1{
+    font-size:11px;
+    opacity: 0.8;
+}
+.projectslogoText2{
+    font-size:17px;
+    font-weight:bold;
+}
+.projectsNavContainer{
+    width:100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom,rgba(32, 46, 49, 0.9) 50%,rgba(32, 46, 49, 0.9) 50%),
+    url("image27.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.projectsheadTop3{
+    width:85%;
+    height:50px;
+    background-color: rgb(32,46,49);
+    margin-left:7.5%;
+    transform: skew(-30deg);
+    transform-origin: 100% 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.projectsnavText{
+    color:white;
+    transform:skew(30deg);
+    font-size: 14px;
+    font-weight: bold;
+}
+.projectsheadTop37{
+    float: right;
+    text-align: center;
+    height:100%;
+    width:14%;
+    background-color: rgb(253,194,54);
+    transform-origin: 100% 0;
+    transform:skew(0deg);
+    margin-left:35%;
+}
+.projectsnavText7{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    transform:skew(30deg);
+}
+.projectsht3{
+    transition:background-color 1s;
+    height:100%;
+    width:9%;
+    text-align: center;
+    cursor:pointer;
+}
+.projectsheadTop34{
+    background-color: rgb(253,194,54);
+}
+.projectsht3:hover{
+    background-color: rgb(253,194,54);
+}
+.projectsUs{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.projectsUsInfo{
+    color:white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+.projectsimagesPallete{
+    width:100%;
+    height:1450px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:60px;
+    animation-name:imagespallete;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+}
+.projectsimageBox{
+    height:450px;
+    overflow: hidden;
+    border:1px solid rgb(224,224,224);
+    width:33%;
+    position:relative;
+}
+.projectstransparentBox{
+    width:100%;
+    height:0;
+    position:absolute;
+    top:0;
+    background-color: rgb(63, 61, 61);
+    opacity: 0;
+    transition: height 0.5s,opacity 0.5s;
+    font-size: 80px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    box-sizing: border-box;
+    padding-top:105px;
+}
+.projectsimageBox:hover .projectsimage7SideBox1{
+    bottom:0;
+}
+.projectsimageBox:hover .projectstransparentBox{
+    height:74%;
+    opacity:0.6;
+}
+.projectsimage7SideBox1{
+    transition: bottom 0.5s;
+    background-color: white;
+    position:absolute;
+    bottom:-38px;
+    width:100%;
+    height:25%;
+    border-top:5px solid rgb(253,194,54);
+}
+.projectsimage7Text1{
+    font-size:18px;
+    font-weight: bold;
+    margin-top:10px;
+    text-align: center;
+    opacity:0.8;
+}
+.projectsimage7Text2{
+    margin-top:-9px;
+    font-size: 13px;
+    opacity:0.4;
+    font-weight: bold;
+    text-align: center;
+}
+.projectsimage7SideBox2{
+    width:100%;
+    height:30%;
+    border-top:1px solid rgb(230, 221, 221);
+    margin-top:1%;
+    display:flex;
+    flex-direction: row;
+}
+.projectsbudgetText{
+    font-size: 12px;
+    opacity:0.4;
+}
+.projectsdurationText{
+    font-size: 12px;
+    opacity:0.4;
+}
+.projectsbudget{
+    width:55%;
+    border-right:1px solid rgb(177, 172, 172);
+    font-weight: bold;
+    height:100%;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-top:8px;
+    padding-left:15px;
+}
+.projectsduration{
+    width: 45%;
+    font-weight: bold;
+    height:100%;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-top:8px;
+    padding-left:15px;
+}
+.projectsimg{
+    width:100%;
+    height:90%;
+}
+.projectsfreeConsultant{
+    height:150px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-top:100px;
+    background-color:rgb(32,46,49);
+}
+.projectsfreeConsultant1{
+    width:25%;
+    height: 100%;
+    background-color: rgb(253,194,54);
+    transform-origin:100% 0;
+    transform: skew(-30deg);
+}
+.projectsfreeConsultant2{
+    width:75%;
+    height: 100%;
+    background-color: rgb(32,46,49);
+}
+.projectsconsultantText1{
+    color:white;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-top:40px;
+    margin-left: 5px;
+}
+.projectsconsultantText2{
+    color:white;
+    font-size:14px;
+    margin-left: 5px;
+    margin-top:-7px;
+    width:50%;
+}
+.projectsconsultantBox{
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    width:170px;
+    height:45px;
+    color:white;
+    border:2px solid white;
+    margin-top:-75px;
+    margin-right:100px;
+    box-sizing: border-box;
+    padding-top:10px;
+    transition: color 0.4s,border 0.4s;
+}
+.projectsconsultantBox:hover{
+    color:rgb(253,194,54);
+    border:2px solid rgb(253,194,54);
+}
+.projectsbottom{
+    width:100%;
+    background-color: rgb(32,45,48);
+    height:500px;
+    box-sizing: border-box;
+    padding-top:40px;
+    position:relative;
+    margin-top:100px;
+}
+.projectsbottomFirst{
+    display:flex;
+    flex-direction: row;
+    height:70%;
+    margin-top:50px;
+}
+.projectsbottomFirst1{
+    margin-left:70px;
+}
+.projectsbottomFirst2{
+    margin-left:50px;
+}
+.projectsbottomFirst3{
+    margin-left:100px;
+}
+.projectsbottomFirst4{
+    margin-left:100px;
+}
+.projectsimage19Text{
+    color:white;
+    margin-top:-6px;
+    font-size: 15px;
+    word-spacing: 0.2rem;
+    line-height: 1.6rem;
+}
+.projectsfirstBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.projectsfirstBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.projectssecondBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.projectssecondBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.projectsthirdBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top:-5px;
+}
+.projectsthirdBottomLinks{
+    color:rgb(111, 134, 129);
+    margin-top:30px;
+    font-size:15px;
+    line-height:1.6rem;
+}
+.projectsmediaIcons{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:110px;
+    margin-top: 30px;
+}
+.projectsicon{
+    box-sizing: border-box;
+    padding: 6px 6px 6px 6px;
+    height:28px;
+    width: 30px;
+    text-align: center;
+    color:white;
+    border:1px solid rgb(111, 134, 129);
+    border-radius: 50%;
+    transition:background-color 0.5s,color 0.5s;
+}
+.projectsicon:hover{
+    background-color: rgb(253,194,54);
+    color:black;
+}
+.projectsbottomSecond{
+    width:100%;
+    bottom:0;
+    position: absolute;
+    background-color: rgb(23,34,36);
+    height: 15%;
+    box-sizing: border-box;
+    padding-top:10px;
+    padding-left:70px;
+}
+.projectsbottomSecondText{
+    color:rgb(111, 134, 129);
+    font-size: 15px;
+}
+.projectsmenuIcon{
+    width:30px;
+    height:25px;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+    background-color: rgb(253,194,54);
+    padding:4px 4px 4px 4px;
+    display: none;
+}
+#margin{
+    margin-left:0;
+}
+@media screen and (max-width: 550px){
+    .projectsheadTopText{
+        font-size: 10px;
+        width:95%;
+        padding-top:0;
+        height:30px;
+        padding-left:8%
+    }
+    .projectsheadTop{
+        height:60px;
+    }
+    .projectsnav1{
+        margin-left:5%;
+        font-size: 10px;
+    }
+    .projectsnav2{
+        font-size: 10px;
+    }
+    .projectsnav3{
+        font-size: 10px;
+    }
+    .projectsnav4{
+        font-size: 10px;
+    }
+    .projectslogo1{
+        width:160px;
+        height:70px;
+        margin-left: 2%;
+        margin-top:15px;
+    }
+    .projectsheadTop2{
+        height:300px;
+        flex-direction: column;
+    }
+    .projectslogo2Box{
+        margin-top:-13px;
+        margin-left:2%;
+    }
+    .projectslogo3Box{
+        margin-top:-16px
+    }
+    .projectslogo4Box{
+        margin-top:-16px
+    }
+    .projectslogoText1{
+        font-size:8px;
+    }
+    .projectslogoText2{
+        font-size: 13px;
+    }
+    .projectslogo{
+        font-size: 35px;
+    }
+    .projectsheadTop3{
+        justify-content: space-between;
+        width:100%;
+        height: 35px;
+        margin-left:0;
+        transform: skew(0);
+    }
+    .projectsheadTop35{
+        display:none
+    }
+    .projectsht3{
+        width:20%;
+        font-size: 17px;
+    }
+    .projectsnavText{
+        font-size:10px;
+        transform: skew(0);
+    }
+    .projectsheadTop37{
+        display:none;
+    }
+    .projectsNavContainer{
+        margin-top:0px;
+        position:relative;
+        height:230px;
+    }
+    .projectsUs{
+        padding-top:8px;
+        width:100%;
+        font-size: 25px;
+    }
+    .projectsUsInfo{
+        font-size:15px;
+        margin-top:-10px;
+    }
+    .projectsmenuIcon{
+        display:inline;
+    }
+    .projectsimagesPallete{
+        height:3650px;
+    }
+    .projectsimageBox{
+        width:95%;
+        margin-left:2.5%;
+    }
+    .projectsimageBox{
+        height:430px;
+    }
+    .projectsimage7SideBox2{
+        flex-direction:column
+    }
+    .projectsbudget{
+        width:100%;
+        height:50%;
+        text-align: center;
+    }
+    .projectsduration{
+        width:100%;
+        height:50%;
+        text-align: center;
+        border-top:1px solid rgb(230, 221, 221);
+    }
+    .projectstransparentBox{
+        padding-top:50px;
+        font-size: 50px;
+    }
+    .projectsfreeConsultant{
+        height:220px;
+        padding-left:15px;
+        margin-top:30px;
+    }
+    .projectsfreeConsultant1{
+        display: none;
+    }
+    .projectsfreeConsultant2{
+        width:100%;
+    }
+    .projectsconsultantText1{
+        margin-top:30px;
+    }
+    .projectsconsultantText2{
+        width:90%;
+    }
+    .projectsconsultantBox{
+        padding-top:5px;
+        font-size: 14px;
+        height:40px;
+        margin-top:10px;
+        margin-left:5px;
+        float:left;
+    }
+    .projectsbottom{
+        height:1200px;
+    }
+    .projectsbottomFirst{
+        height: 90%;
+        flex-direction: column;
+    }
+    .projectsbottomFirst1,.projectsbottomFirst2,.projectsbottomFirst3,.projectsbottomFirst4{
+        margin-left:20px;
+    }
+    .projectsfirstBottomHead,.projectssecondBottomHead,.projectsthirdBottomHead{
+        margin-top:20px;
+        font-size: 18px;
+    }
+    .projectsfirstBottomLinks,.projectssecondBottomLinks,.projectsthirdBottomLinks{
+        font-size:14px;
+    }
+    .projectsbottomSecond{
+        height: 5%;
+        padding-left:0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:300px) {
+    .projectsimage7SideBox1{
+        bottom: -90px;
+        height:55%;
+    }
+    .projectsimageBox:hover .projectstransparentBox{
+        height:45%;
+    }
+    .projectstransparentBox{
+        padding-top:15px;
+    }
+}
+@media only screen and (min-width:530px) and (max-width:550px){
+    .projectsimage7SideBox1{
+        bottom:-90px;
+        height:45%;
+    }
+    .projectsimageBox:hover .projectstransparentBox{
+        height:55%;
+    }
+}
+@media only screen and (min-width:410px) and (max-width:415px) {
+    .projectsimage7SideBox1{
+        bottom:-105px;
+        height:42%;
+    }
+    .projectsimageBox:hover .projectstransparentBox{
+        height:58%;
+    }   
+}
+@media only screen and (min-width:290px) and (max-width:400px) {
+    .projectsimage7SideBox1{
+        bottom: -90px;
+        height:45%;
+    }
+    .projectsimageBox:hover .projectstransparentBox{
+        height:55%;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:800px) {
+    .projectsheadTopText{
+        width:40%;
+    }
+    .projectsnav1{
+        margin-left:20%
+    }
+    .projectslogo1{
+        margin-left: 2%;
+    }
+    .projectslogo2Box{
+        margin-left:15%;
+    }
+    .projectsimageBox{
+        width:49%;
+    }
+    .projectsbudget{
+        width:50%;
+    }
+    .projectsduration{
+        width:50%;
+    }
+    .projectsconsultantBox{
+        margin-right: 80px;
+    }
+    .projectsfreeConsultant{
+        margin-top:430px;
+    }
+    .projectsbottomFirst1{
+        margin-left:20px;
+    }
+}
+@media screen and (max-width:800px) and (min-width:600px) {
+    .projectsheadTopText{
+        width:40%;
+    }
+    .projectsnav1{
+        margin-left:20%
+    }
+    .projectslogo1{
+        margin-left:1%
+    }
+    .projectslogo2Box{
+        margin-left:0%
+    }
+    .projectsheadTop3{
+        justify-content: space-between;
+    }
+    .projectsheadTop35{
+        width:7%;
+    }
+    .projectsheadTop31{
+        width:7%;
+    }
+    .projectsheadTop32{
+        width:8%;
+    }
+    .projectsheadtop37{
+        width:20%
+    }
+    .projectsnavText{
+        font-size: 12px;
+    }
+    .projectsnavText7{
+        font-size: 12px;
+    }
+    .projectsimageBox{
+        width:49%;
+    }
+    .projectsbudget{
+        width:50%;
+    }
+    .projectsduration{
+        width:50%;
+    }
+    .projectsfreeConsultant1{
+        width:11%
+    }
+    .projectsfreeConsultant2{
+        width:89%
+    }
+    .projectsconsultantBox{
+        margin-right: 30px;
+    }
+    .projectsfreeConsultant{
+        margin-top: 430px;
+    }
+    .projectsbottomFirst1{
+        margin-left:20px;
+    }
+}

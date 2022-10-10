@@ -1,0 +1,952 @@
+body,html{
+    width:100%;
+}
+.testing{
+    opacity:0;
+}
+.opaque{
+    animation-name:opaque;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes opaque {
+    from{
+        opacity:0
+    }
+    to{
+        opacity:1
+    }
+}
+.aboutheadTop{
+    width:100%;
+    height:40px;
+    background-color: rgb(32,46,49);
+    box-sizing: border-box;
+}
+.aboutheadTopText{
+    display:inline-block;
+    color:white;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgb(26,38,40);
+    height:100%;
+    width:28%;
+    box-sizing: border-box;
+    padding-top:3px;
+    padding-left:6%;
+    transform-origin:100% 0;
+    transform: skew(-45deg);
+}
+.aboutheadTopTextPara{
+    transform: skew(45deg);
+}
+.aboutnav1{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight:bold;
+    margin-left:40%;
+}
+.aboutnav2{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.aboutnav3{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.aboutnav4{
+    display:inline-block;
+    font-size:11px;
+    color:white;
+    font-weight: bold;
+}
+.aboutheadTop2{
+    height:140px;
+    width:100%;
+    background-color: white;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: row;
+}
+.aboutlogo1{
+    width:180px;
+    height:80px;
+    margin-left: 7%;
+    margin-top:30px;
+}
+.aboutlogo2Box{
+    height:50%;
+    margin-left:25%;
+    margin-top:30px;
+    box-sizing: border-box;
+    padding-top:5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutlogoText{
+    margin-top:12px;
+    margin-left: 12px;
+}
+.aboutheadTop2Main{
+    display:flex;
+    flex-direction: row;
+}
+.aboutlogo3Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutlogo4Box{
+    height:50%;
+    margin-left:2%;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutlogo{
+    font-size: 40px;
+    margin-top:0%;
+}
+.aboutlogoText1{
+    font-size:11px;
+    opacity: 0.8;
+}
+.aboutlogoText2{
+    font-size:17px;
+    font-weight:bold;
+}
+.aboutNavContainer{
+    width:100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom,rgba(32, 46, 49, 0.9) 50%,rgba(32, 46, 49, 0.9) 50%),
+    url("image27.jpg");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutheadTop3{
+    width:85%;
+    height:50px;
+    background-color: rgb(32,46,49);
+    margin-left:7.5%;
+    transform: skew(-30deg);
+    transform-origin: 100% 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.aboutnavText{
+    color:white;
+    transform:skew(30deg);
+    font-size: 14px;
+    font-weight: bold;
+}
+.aboutheadTop37{
+    float: right;
+    text-align: center;
+    height:100%;
+    width:14%;
+    background-color: rgb(253,194,54);
+    transform-origin: 100% 0;
+    transform:skew(0deg);
+    margin-left:35%;
+}
+.aboutnavText7{
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    transform:skew(30deg);
+}
+.aboutht3{
+    transition:background-color 1s;
+    height:100%;
+    width:9%;
+    text-align: center;
+    cursor:pointer;
+}
+.aboutheadTop32{
+    background-color: rgb(253,194,54);
+}
+.aboutht3:hover{
+    background-color: rgb(253,194,54);
+}
+.aboutUs{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top:35px;
+}
+.aboutUsInfo{
+    color:white;
+    font-size: 14.5px;
+    text-align: center;
+    line-height: 1.7rem;
+    margin-top:-10px;
+}
+.additionalInfoBox{
+    margin-top:100px;
+    width:86%;
+    height: 406px;
+    margin-left:7%;
+    display:flex;
+    flex-direction: row;
+}
+.image22Box{
+    transform-origin: 100% 0;
+    transform:skew(-16deg);
+    width:30%;
+    margin-left:20%;
+    background-color: rgb(253,194,54);
+}
+.image22{
+    margin-left:-64.5%;
+    transform:skew(16deg)
+}
+.image222{
+    display:none;
+}
+.image22TextInfo{
+    height: 100%;
+    box-sizing: border-box;
+    padding-top:100px;
+    opacity:0.6;
+    line-height: 1.6rem;
+}
+.allInfoBox{
+    position:relative;
+    margin-top:100px;
+    width:80%;
+    margin-left:7%;
+    height: 450px;
+    background-color: rgb(32,46,49);
+}
+.image23{
+    position:absolute;
+    right:-100px;
+    bottom:0;
+    animation-name:imageAnimate;
+    animation-duration: 2s;
+}
+@keyframes imageAnimate {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    17%{
+        opacity:1;
+        transform: translateY(6px);
+    }
+    34%{
+        transform: translateY(0);
+    }
+    51%{
+        transform: translateY(6px);
+    }
+    68%{
+        transform: translateY(0);
+    }
+    85%{
+        transform: translateY(6px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.infosBox{
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+}
+.infoTopic{
+    color:white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.infoMessage{
+    color:rgb(111, 134, 129);
+    font-size: 15px;
+    line-height: 1.7rem;
+}
+.whoWeAre{
+    margin-left:45px;
+    margin-top:40px;
+    width:40%;
+}
+.biography{
+    margin-left:45px;
+    margin-top:40px;
+    width:40%;
+}
+.ourMission{
+    margin-left: 45px;
+    width:40%;
+}
+.awards{
+    margin-left:45px;
+    width:40%;
+}
+.aboutfreeConsultant{
+    height:150px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    margin-top:100px;
+    background-color:rgb(32,46,49);
+}
+.aboutfreeConsultant1{
+    width:25%;
+    height: 100%;
+    background-color: rgb(253,194,54);
+    transform-origin:100% 0;
+    transform: skew(-30deg);
+}
+.aboutfreeConsultant2{
+    width:75%;
+    height: 100%;
+    background-color: rgb(32,46,49);
+    line-height: 1.6rem;
+}
+.aboutconsultantText1{
+    color:white;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-top:40px;
+    margin-left: 5px;
+}
+.aboutconsultantText2{
+    color:white;
+    font-size:14px;
+    margin-left: 5px;
+    margin-top:-7px;
+    width:50%;
+}
+.aboutconsultantBox{
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    width:170px;
+    height:45px;
+    color:white;
+    border:2px solid white;
+    margin-top:-75px;
+    margin-right:100px;
+    box-sizing: border-box;
+    padding-top:10px;
+    transition: color 0.4s,border 0.4s;
+}
+.aboutconsultantBox:hover{
+    color:rgb(253,194,54);
+    border:2px solid rgb(253,194,54);
+}
+.aboutawesomeTeamBox{
+    width:100%;
+    height:800px;
+    background-color: rgb(245,245,245);
+    box-sizing: border-box;
+    padding-top:70px;
+}
+.aboutawesomeTeamText1{
+    font-size:35px;
+    font-weight: bold;
+    text-shadow: 5px 5px rgba(26, 21, 21, 0.007);
+    width:100%;
+    text-align:center;
+}
+.aboutawesomeTeamText2{
+    margin-top:-28px;
+    color:rgb(32,46,49);
+    opacity: 0.6;
+    width:100%;
+    text-align:center;
+}
+.aboutawesomeTeamPictures{
+    width:85%;
+    height:67%;
+    margin-left:7.5%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.aboutawesomeTeamImg{
+    width:31.666666666667%;
+    height:100%;
+    position: relative;
+    text-align: center;
+    overflow:hidden;
+}
+
+.aboutat1{
+    width:80%;
+    margin-left:10%;
+    background-color: rgb(47,68 ,72 );
+    height:40%;
+    bottom:0;
+    position: absolute;
+    transition:transform 1s,background-color 1s;
+}
+.aboutatImg{
+    position: absolute;
+    bottom:0;
+    right:8%;
+    transform: translateY(400px);
+}
+.aboutatImgAnimate{
+    animation-name:imageAnimate;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes imageAnimate {
+    0%{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    17%{
+        opacity:1;
+        transform: translateY(6px);
+    }
+    34%{
+        transform: translateY(0);
+    }
+    51%{
+        transform: translateY(6px);
+    }
+    68%{
+        transform: translateY(0);
+    }
+    85%{
+        transform: translateY(6px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.aboutat2{
+    border-left:1px solid rgb(230, 221, 221);
+    border-right:1px solid rgb(230, 221, 221);
+    background-color: white;
+    height:26%;
+    position:absolute;
+    bottom:-6.5%;
+    width:100%;
+    transition: clip-path 0.5s,bottom 0.5s,border-top 0.5s;
+    clip-path:polygon(0% 30%,50% 0%,100% 30%,100% 100%,0% 100%);
+    left:0;
+}
+.aboutat2Box{
+    width:100%;
+    height:30%;
+    border-top:1px solid rgb(230, 221, 221);
+    margin-top:1%;
+    display:flex;
+    flex-direction: row;
+}
+.aboutexperience{
+    width:65%;
+    border-right:1px solid rgb(177, 172, 172);
+    font-size: 12px;
+    opacity:0.4;
+    font-weight: bold;
+    height:100%;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-top:8px;
+}
+.aboutage{
+    width: 35%;
+    font-size: 12px;
+    opacity:0.4;
+    font-weight: bold;
+    height:100%;
+    margin-top:0;
+    box-sizing: border-box;
+    padding-top:8px;
+}
+.abouttxt1{
+    font-size:16px;
+    font-weight: bold;
+    margin-top:35px;
+}
+.abouttxt2{
+    margin-top:-9px;
+    font-size: 13px;
+    opacity:0.4;
+    font-weight: bold;
+}
+.aboutawesomeTeamImg1:hover .aboutat11{
+    transform:skewY(-15deg) scaleY(1.8);
+    background-color: rgb(253,194,54);
+}
+.aboutawesomeTeamImg1:hover .aboutat2{
+    bottom:0;
+    clip-path:polygon(0% 0%,50% 0%,100% 0%,100% 100%,0% 100%);
+    border-top:5px solid rgb(253,194,54)
+}
+.aboutawesomeTeamImg2:hover .aboutat12{
+    transform:skewY(-15deg) scaleY(1.8);
+    background-color: rgb(253,194,54);
+}
+.aboutawesomeTeamImg2:hover .aboutat2{
+    bottom:0;
+    clip-path:polygon(0% 0%,50% 0%,100% 0%,100% 100%,0% 100%);
+    border-top:5px solid rgb(253,194,54)
+}
+.aboutawesomeTeamImg3:hover .aboutat13{
+    transform:skewY(-15deg) scaleY(1.8);
+    background-color: rgb(253,194,54);
+}
+.aboutawesomeTeamImg3:hover .aboutat2{
+    bottom:0;
+    clip-path:polygon(0% 0%,50% 0%,100% 0%,100% 100%,0% 100%);
+    border-top:5px solid rgb(253,194,54)
+}
+.aboutbottom{
+    width:100%;
+    background-color: rgb(32,45,48);
+    height:500px;
+    box-sizing: border-box;
+    padding-top:40px;
+    position:relative
+}
+.aboutbottomFirst{
+    display:flex;
+    flex-direction: row;
+    height:70%;
+    margin-top:50px;
+}
+.aboutbottomFirst1{
+    margin-left:70px;
+}
+.aboutbottomFirst2{
+    margin-left:50px;
+}
+.aboutbottomFirst3{
+    margin-left:100px;
+}
+.aboutbottomFirst4{
+    margin-left:100px;
+}
+.aboutimage19Text{
+    color:white;
+    margin-top:-6px;
+    font-size: 15px;
+    word-spacing: 0.2rem;
+    line-height: 1.6rem;
+}
+.aboutfirstBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.aboutfirstBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.aboutsecondBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size:19px;
+    margin-top:-5px;
+}
+.aboutsecondBottomLinks{
+    margin-top:50px;
+    color:rgb(111, 134, 129);
+    font-size:15px;
+    margin-left:20px;
+}
+.aboutthirdBottomHead{
+    color:white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top:-5px;
+}
+.aboutthirdBottomLinks{
+    color:rgb(111, 134, 129);
+    margin-top:30px;
+    font-size:15px;
+    line-height:1.6rem;
+}
+.aboutmediaIcons{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:110px;
+    margin-top: 30px;
+}
+.abouticon{
+    box-sizing: border-box;
+    padding: 6px 6px 6px 6px;
+    height:28px;
+    width: 30px;
+    text-align: center;
+    color:white;
+    border:1px solid rgb(111, 134, 129);
+    border-radius: 50%;
+    transition:background-color 0.5s,color 0.5s;
+}
+.abouticon:hover{
+    background-color: rgb(253,194,54);
+    color:black;
+}
+.aboutbottomSecond{
+    width:100%;
+    bottom:0;
+    position: absolute;
+    background-color: rgb(23,34,36);
+    height: 15%;
+    box-sizing: border-box;
+    padding-top:10px;
+    padding-left:70px;
+}
+.aboutbottomSecondText{
+    color:rgb(111, 134, 129);
+    font-size: 15px;
+}
+.aboutmenuIcon{
+    width:30px;
+    height:25px;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+    background-color: rgb(253,194,54);
+    padding:4px 4px 4px 4px;
+    display: none;
+}
+.aboutmenuIcon:hover .aboutheadTop3{
+    margin-left:0;
+}
+@media screen and (max-width: 550px){
+    .aboutheadTopText{
+        font-size: 10px;
+        width:95%;
+        padding-top:0;
+        height:30px;
+        padding-left:8%
+    }
+    .aboutheadTop{
+        height:60px;
+    }
+    .aboutnav1{
+        margin-left:5%;
+        font-size: 10px;
+    }
+    .aboutnav2{
+        font-size: 10px;
+    }
+    .aboutnav3{
+        font-size: 10px;
+    }
+    .aboutnav4{
+        font-size: 10px;
+    }
+    .aboutlogo1{
+        width:160px;
+        height:70px;
+        margin-left: 2%;
+        margin-top:15px;
+    }
+    .aboutheadTop2{
+        height:300px;
+        flex-direction: column;
+    }
+    .aboutlogo2Box{
+        margin-top:-13px;
+        margin-left:2%;
+    }
+    .aboutlogo3Box{
+        margin-top:-16px
+    }
+    .aboutlogo4Box{
+        margin-top:-16px
+    }
+    .aboutlogoText1{
+        font-size:8px;
+    }
+    .aboutlogoText2{
+        font-size: 13px;
+    }
+    .aboutlogo{
+        font-size: 35px;
+    }
+    .aboutheadTop3{
+        justify-content: space-between;
+        width:100%;
+        height: 35px;
+        margin-left:0;
+        transform: skew(0);
+    }
+    .aboutheadTop35{
+        display:none
+    }
+    .aboutht3{
+        width:20%;
+        font-size: 17px;
+    }
+    .aboutnavText{
+        font-size:10px;
+        transform: skew(0);
+    }
+    .aboutheadTop37{
+        display:none;
+    }
+    .aboutNavContainer{
+        margin-top:0px;
+        position:relative;
+        height:230px;
+    }
+    .aboutUs{
+        padding-top:8px;
+        width:100%;
+        font-size: 25px;
+    }
+    .aboutUsInfo{
+        font-size:15px;
+        margin-top:-10px;
+    }
+    .aboutawesomeTeamText1{
+        width:100%;
+        font-size: 25px;
+    }
+    .aboutawesomeTeamText2{
+        font-size:15px;
+        margin-top:-10px;
+    }
+    .aboutmenuIcon{
+        display:inline;
+    }
+    .additionalInfoBox{
+        width:100%;
+        height:700px;
+        flex-direction: column;
+        margin-left:0;
+    }
+    .image22Box{
+        display:none;
+    }
+    .image22TextInfo{
+        padding-top:50px;
+        padding-left:13px;
+        padding-right:13px;
+    }
+    .image222{
+        display:inline-block;
+    }
+    .image23{
+        display:none;
+    }
+    .allInfoBox{
+        width:100%;
+        margin-left:0;
+        margin-top:20px;
+    }
+    .infosBox{
+        width:100%;
+    }
+    .whoWeAre,.biography,.ourMission,.awards{
+        width:90%;
+        margin-left:5%;
+    }
+    .whoWeAre{
+        margin-top: 25px;
+    }
+    .biography{
+        margin-top:0px;
+    }
+    .aboutfreeConsultant{
+        height:220px;
+        padding-left:15px;
+    }
+    .aboutfreeConsultant1{
+        display: none;
+    }
+    .aboutfreeConsultant2{
+        width:100%;
+    }
+    .aboutconsultantText1{
+        margin-top:30px;
+    }
+    .aboutconsultantText2{
+        width:90%;
+    }
+    .aboutconsultantBox{
+        padding-top:5px;
+        font-size: 14px;
+        height:40px;
+        margin-top:10px;
+        margin-left:5px;
+        float:left;
+    }
+    .aboutawesomeTeamBox{
+        height:1100px;
+    }
+    .aboutawesomeTeamPictures{
+        flex-direction: column;
+        margin-top:30px;
+        height:85%;
+    }
+    .aboutawesomeTeamImg{
+        width:100%;
+        margin-top:50px;
+    }
+    .aboutawesomeTeamBox{
+        height:1950px;
+    }
+    .aboutat2{
+        height:30%;
+        bottom:-10%;
+    }
+    .aboutat1{
+        height: 38%;
+    }
+    .aboutbottom{
+        height:1200px;
+    }
+    .aboutbottomFirst{
+        height: 90%;
+        flex-direction: column;
+    }
+    .aboutbottomFirst1,.aboutbottomFirst2,.aboutbottomFirst3,.aboutbottomFirst4{
+        margin-left:20px;
+    }
+    .aboutfirstBottomHead,.aboutsecondBottomHead,.aboutthirdBottomHead{
+        margin-top:20px;
+        font-size: 18px;
+    }
+    .aboutfirstBottomLinks,.aboutsecondBottomLinks,.aboutthirdBottomLinks{
+        font-size:14px;
+    }
+    .aboutbottomSecond{
+        height: 5%;
+        padding-left:0;
+        text-align: center;
+    }
+}
+@media screen and (min-height:700px) and (max-height:750px) {
+    .allInfoBox{
+        height:850px;
+    }
+}
+@media screen and (min-height:800px) and (max-height:850px){
+    .allInfoBox{
+        height:850px;
+    }
+}
+@media screen and (max-width:400px) and (max-height:699px) {
+    .allInfoBox{
+        height:850px;
+    }
+}
+@media screen and (max-width:1025px) and (min-width:800px) {
+    .aboutheadTopText{
+        width:40%;
+    }
+    .aboutnav1{
+        margin-left:20%
+    }
+    .aboutlogo1{
+        margin-left: 2%;
+    }
+    .aboutlogo2Box{
+        margin-left:15%;
+    }
+    .allInfoBox{
+        margin-left:0;
+        width:90%;
+    }
+    .aboutawesomeTeamPictures{
+        width:98%;
+        margin-left:1%;
+        flex-wrap: wrap;
+    }
+    .aboutawesomeTeamImg{
+        width:47%;
+    }
+    .aboutbottomFirst1{
+        margin-left:20px;
+    }
+    .aboutconsultantBox{
+        margin-right: 80px;
+    }
+}
+@media screen and (max-width:800px) and (min-width:600px) {
+    .aboutheadTopText{
+        width:40%;
+    }
+    .aboutnav1{
+        margin-left:20%
+    }
+    .aboutlogo1{
+        margin-left:1%
+    }
+    .aboutlogo2Box{
+        margin-left:0%
+    }
+    .aboutheadTop3{
+        justify-content: space-between;
+    }
+    .aboutheadTop35{
+        width:7%;
+    }
+    .aboutheadTop31{
+        width:7%;
+    }
+    .aboutheadTop32{
+        width:8%;
+    }
+    .aboutheadtop37{
+        width:20%
+    }
+    .aboutnavText{
+        font-size: 12px;
+    }
+    .aboutnavText7{
+        font-size: 12px;
+    }
+    .aboutimage1{
+        display:none;
+    }
+    .allInfoBox{
+        margin-left:0;
+        height:850px;
+    }
+    .whoWeAre,.biography,.ourMission,.awards{
+        width:60%;
+        margin-left:40px;
+    }
+    .aboutawesomeTeamPictures{
+        width:98%;
+        margin-left:1%;
+        flex-wrap: wrap;
+    }
+    .aboutawesomeTeamImg{
+        width:47%;
+    }
+    .aboutfreeConsultant1{
+        width:11%
+    }
+    .aboutfreeConsultant2{
+        width:89%
+    }
+    .aboutconsultantBox{
+        margin-right: 30px;
+    }
+    .aboutbottomFirst1{
+        margin-left:20px;
+    }
+}
